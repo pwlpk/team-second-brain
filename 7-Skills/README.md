@@ -11,6 +11,6 @@ Instrukcje utrzymujemy w `.agents/skills/`. Codex czyta je z tego katalogu. Clau
 
 Po sklonowaniu otwórz nową sesję w katalogu głównym i wywołaj np. `$team-query` w Codexie albo `/team-query` w Claude Code. Claude Code potrzebuje klonu z zachowanymi symlinkami.
 
-W prywatnym repo użyj `team-connect` albo skonfiguruj połączenie ręcznie. Lokalny `team-share` przygotuje patch i szkic PR-a w prywatnym repo. Zatwierdzoną propozycję może obsłużyć `team-update` w klonie zespołu. [Instalacja i fragment AGENTS.md](../docs/instalacja-w-prywatnym-repo.md)
+Wywołaj `team-connect` w klonie zespołu i wskaż prywatne repo. Po podłączeniu uruchom `team-share` w prywatnym repo, aby przygotować patch i szkic PR-a. Zatwierdzoną propozycję może obsłużyć `team-update` w klonie zespołu. [Instalacja i fragment AGENTS.md](../docs/instalacja-w-prywatnym-repo.md)
 
 [Dokumentacja skilli Codexa](https://learn.chatgpt.com/docs/build-skills) · [Dokumentacja Claude Code](https://code.claude.com/docs/en/skills)
