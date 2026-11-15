@@ -1,8 +1,18 @@
 # Podłącz prywatnego Superbraina do zespołu
 
-Przygotuj lokalny klon repo zespołu utworzonego z szablonu. Agent potrzebuje dostępu do obu katalogów oraz uprawnień do odczytu repo zespołu na GitHubie.
+Sklonuj repo zespołu utworzone z szablonu i otwórz jego katalog w Codexie albo Claude Code. Sesja potrzebuje uprawnień do odczytu repo zespołu na GitHubie i zapisu w lokalnym prywatnym repo.
 
-W sesji otwartej w prywatnym repo wskaż plik `.agents/skills/team-connect/SKILL.md` z klonu zespołu i poproś o podłączenie. Przekaż ścieżkę klonu, tożsamość repo, zakres pracy oraz jedno pytanie z odpowiedzią w wiedzy zespołu. `team-connect` uzupełni konfigurację, doda `team-share` i zapisze regułę w instrukcjach prywatnego repo.
+W sesji otwartej w repo zespołu wywołaj `$team-connect` w Codexie albo `/team-connect` w Claude Code. Podaj bezwzględną ścieżkę do prywatnego repo.
+
+> $team-connect Podłącz moje prywatne repo /ścieżka/do/prywatnego-repo
+
+Skill odczyta tożsamość bieżącego repo zespołu i w prywatnym repo uzupełni `8-System/team-context.md`, zainstaluje `team-share` i dopisze regułę do `AGENTS.md`.
+
+W Codex CLI możesz otworzyć klon zespołu i dodać prywatny katalog z prawem zapisu jednym poleceniem.
+
+```sh
+codex --cd "/ścieżka/do/repo-zespołu" --add-dir "/ścieżka/do/prywatnego-repo"
+```
 
 ## Instalacja ręczna
 

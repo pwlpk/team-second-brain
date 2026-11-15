@@ -10,4 +10,4 @@
 
 1. Utwórz repo zespołu przez **Use this template**, przypisz autorowi i reviewerowi dostęp do zapisu i włącz [reguły review](uruchomienie-github.md).
 2. Przygotuj PR z pierwszą stroną. Oczekuj zaliczonego `knowledge-check` i blokady merge do potwierdzenia drugiej osoby. Następnie poproś reviewera o zatwierdzenie i scal zmianę.
-3. W drugim klonie zapytaj agenta o nową stronę. Oczekuj odpowiedzi ze źródłem i SHA zaakceptowanej wersji. Jeśli używasz prywatnego Superbraina, powtórz pytanie po [podłączeniu go do zespołu](../.agents/skills/team-connect/SKILL.md).
+3. W drugim klonie zapytaj agenta o nową stronę. Oczekuj odpowiedzi ze źródłem i SHA zaakceptowanej wersji. Jeśli używasz prywatnego Superbraina, wywołaj `team-connect` w klonie zespołu i podaj ścieżkę prywatnego repo. Sprawdź, czy w prywatnym repo pojawiły się połączenie, skill `team-share` i reguła w `AGENTS.md`. Otwórz nową prywatną sesję i powtórz pytanie. [Instrukcja podłączenia](instalacja-w-prywatnym-repo.md)
