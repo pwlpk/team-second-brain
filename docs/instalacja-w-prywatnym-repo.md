@@ -52,4 +52,6 @@ Dodaj poniższy fragment do istniejącego pliku `AGENTS.md` w głównym katalogu
 - Gdy proszę o przygotowanie propozycji dla zespołu z prywatnego materiału, użyj lokalnego skilla `.agents/skills/team-share/SKILL.md`.
 ```
 
-Otwórz nową sesję w prywatnym repo. Zadaj pytanie sprawdzające wiedzę zespołu i porównaj źródło oraz SHA z przyjętą wersją. Następnie wywołaj `$team-share` w Codexie albo `/team-share` w Claude Code i wskaż prywatny materiał. Oczekuj patcha i szkicu PR-a w prywatnym `9-Outputs/`.
+Otwórz nową sesję w prywatnym repo. Zadaj pytanie sprawdzające wiedzę zespołu i porównaj źródło oraz SHA z przyjętą wersją. Następnie wywołaj `$team-share` w Codexie albo `/team-share` w Claude Code i wskaż prywatny materiał. Oczekuj podglądu zakresu udostępnienia, a po jego akceptacji linku do Draft PR-a na GitHubie. Agent korzysta z `team-update` w tej samej sesji; nie trzeba przenosić patcha między repozytoriami. Do tego kroku sesja potrzebuje zapisu w klonie zespołu oraz uprawnień do pushu gałęzi i tworzenia PR-ów.
+
+Po aktualizacji szablonu w klonie zespołu uruchom ponownie `team-connect`, aby uaktualnić również wcześniej zainstalowany prywatny `team-share`. Samo utworzenie nowej wersji szablonu nie aktualizuje istniejących repozytoriów ani zainstalowanych skilli.

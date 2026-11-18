@@ -1,10 +1,11 @@
 ---
 name: team-share
-description: Przygotuj w prywatnym Superbrainie propozycję udostępnienia fragmentu notatki albo wyniku połączonemu zespołowi. Pokaż diff i treść przyszłego PR-a do oceny autora.
+description: Udostępnij wybrany materiał z prywatnego Superbraina połączonemu zespołowi przez Draft PR na GitHubie, po sprawdzeniu zakresu ujawnienia z autorem.
 ---
-# Przygotuj propozycję dla zespołu
+# Udostępnij materiał zespołowi
 
-1. Odczytaj wskazany materiał prywatny i wybierz zespół z `8-System/team-context.md`. Według `8-System/git-read.md` z klonu zespołu potwierdź tożsamość repo i SHA domyślnej gałęzi. Sprawdź dotknięte strony, indeksy i właścicieli w tej wersji.
-2. Przygotuj zmianę w tymczasowej kopii z tego SHA, np. z `git archive`. Użyj treści, którą autor może udostępnić, oraz samodzielnego wyciągu z kontekstem i ograniczeniami. Zaktualizuj istniejące strony i indeksy. Uruchom `ruby scripts/check.rb` w kopii.
-3. Zapisz w prywatnym `9-Outputs/` pełny patch obejmujący także nowe pliki oraz szkic PR-a. Pokaż diff, repo i SHA bazy, pliki i źródła, opis PR-a, planowaną wiadomość commita, reviewera i ewentualne załączniki. Sprawdź, czy patch nakłada się na czystą kopię z tego SHA i czy cały pakiet zawiera wyłącznie proponowaną wersję zespołową.
-4. Zakończ na lokalnym pakiecie do oceny autora. Publikację zatwierdzonej wersji obsługuje `team-update` w klonie zespołu.
+1. Odczytaj wskazany materiał i wybierz zespół z `8-System/team-context.md`. Potwierdź repo i SHA domyślnej gałęzi według `8-System/git-read.md` z klonu zespołu. Sprawdź dotknięte strony, indeksy i właścicieli.
+2. W tej samej sesji użyj `.agents/skills/team-update/SKILL.md` z klonu zespołu. Przygotuj na gałęzi zespołu samodzielny materiał z kontekstem, źródłami i ograniczeniami. Pomiń prywatne zapiski i zastosuj zasady awansowania wskazane w `team-update`.
+3. Pokaż autorowi dokładny zakres publikacji i uzyskaj brakującą akceptację. Po akceptacji kontynuuj `team-update` aż do utworzenia lub aktualizacji rzeczywistego Draft PR-a i podaj jego URL. Nie wymagaj przełączania sesji ani ręcznego przekazywania patcha.
+
+Nie przechowuj zespołowego patcha ani szkicu PR-a w prywatnym `9-Outputs/`. Przy ograniczeniu użytkownika do podglądu zakończ na pokazaniu diffu; przy braku dostępu nazwij blokadę. Nie przedstawiaj lokalnej propozycji jako ukończonego PR-a.
