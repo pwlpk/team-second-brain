@@ -22,7 +22,7 @@ W odpowiedziach wskazuj przeczytane strony i ich wersję. Rozróżniaj obserwacj
 
 Autor zleca pracę i odpowiada za zakres ujawnienia. Właściciel obszaru odpowiada za treść, zastępca przejmuje review w razie potrzeby, a opiekun koordynuje obszary bez przydziału. Sprawdź [mapę właścicieli](owners.md) przed przygotowaniem zmiany.
 
-Przygotuj zmianę na gałęzi opartej na przyjętej wersji, wraz z dotkniętymi indeksami, źródłami i odnośnikami. Dla prywatnego wejścia pokaż i uzyskaj akceptację dokładnego zakresu przed wysłaniem czegokolwiek do repo zespołowego. Twórz PR lub Issue w ramach udzielonego upoważnienia. Publikacja propozycji i akceptacja merytoryczna są odrębnymi czynnościami.
+Przygotuj zmianę na gałęzi opartej na przyjętej wersji, wraz z dotkniętymi indeksami, źródłami i odnośnikami. Dla prywatnego wejścia pokaż i uzyskaj akceptację dokładnego zakresu przed wysłaniem czegokolwiek do repo zespołowego. Zleconą zmianę doprowadź przez `team-update` do Draft PR-a na GitHubie, chyba że użytkownik ograniczył zadanie do podglądu lub pracy lokalnej. Issues twórz w ramach udzielonego upoważnienia. Publikacja propozycji i akceptacja merytoryczna są odrębnymi czynnościami.
 
 Osoba inna niż autor ocenia treść i jawnie zatwierdza PR. Wymagane kontrole muszą przejść. W razie braku reviewera PR czeka. Ludzie przyjmują decyzje i scalają zmiany po spełnieniu [reguł repo](../docs/uruchomienie-github.md).
 
