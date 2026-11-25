@@ -1,8 +1,8 @@
 ---
-steward: null
+steward: pwlpk
 areas:
   product:
-    owner: null
+    owner: pwlpk
     backup: null
   domain:
     owner: null
