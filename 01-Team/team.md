@@ -1,16 +1,16 @@
 ---
-working_language: en
+working_language: pl
 ---
-# Team profile
+# Profil zespołu
 
-Complete this profile with `team-init`. Update it when the team's scope changes.
+Profil uzupełniono w ramach `team-init`. Aktualizuj go, gdy zmienia się zakres zespołu.
 
-- **Team and product:** What we build.
-- **Audience:** Who we serve and what they need to do.
-- **Outcomes:** How we recognize useful progress.
-- **Scope:** Responsibilities, dependencies and constraints.
-- **Tools and sources:** Where tasks, data and authoritative documents live.
+- **Zespół i produkt:** Portal z ogłoszeniami pracy dla osób szukających pracy, które potrafią korzystać z AI, oraz dla pracodawców publikujących ogłoszenia.
+- **Odbiorcy:** Pracodawcy, którzy chcą zamieszczać ogłoszenia, i osoby szukające pracy, które potrafią korzystać z AI.
+- **Efekty:** Jak najwięcej firm zamieszcza ogłoszenia, a osoby szukające pracy aktywnie przeglądają ofert. Szczegółowe wskaźniki do uzupełnienia.
+- **Zakres:** Do uzupełnienia (obowiązki zespołu, zależności i ograniczenia).
+- **Narzędzia i źródła:** Do uzupełnienia (miejsce zadań, danych i dokumentów źródłowych).
 
-`working_language` sets the language of new team content, for example `en` or `pl`. It does not translate existing sources or change the private brain's language.
+`working_language` ustawia język nowych treści zespołu (tutaj `pl`). Nie tłumaczy istniejących źródeł ani nie zmienia języka prywatnych mózgów.
 
-[Context map](context-entry.md) · [Ownership](owners.md)
+[Mapa kontekstu](context-entry.md) · [Odpowiedzialność](owners.md)
