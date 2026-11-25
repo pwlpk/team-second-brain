@@ -4,6 +4,8 @@ Link every knowledge page exactly once under the appropriate heading, with a sho
 
 ## Domain
 
+- [Ponowny zakup pracodawców: wstępne wnioski](domain/ponowny-zakup-wnioski.md) - kiedy potrzebujesz kontekstu o powrotach pracodawców i hipotezach do weryfikacji
+
 ## Customers
 
 ## Decisions
